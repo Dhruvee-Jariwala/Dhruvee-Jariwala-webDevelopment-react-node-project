@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Header</title>
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.menu {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			background-color: #f9cc41;
+			color: #262533;
+			font-size: 20px;
+			align-items: center;
+		}
+
+		.menu ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			list-style: none;
+		}
+
+		.menu ul a {
+			text-decoration: none;
+			
+		}
+
+		.item, a{
+			cursor: pointer;
+			flex: auto;
+			justify-content: space-around;
+			text-align: center;
+			padding: 17px;
+			color: #262533;
+		}
+
+		.item:hover {	
+			background-color: #262533;
+			transition: .5s;
+		}
+		.menu ul a:hover{
+			color: #f9cc41;
+			transition: .5s;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="menu">
+		<div>
+			<h1>DreamCity</h1>
+		</div>
+		<ul>
+			<li class="item"><a href="index.html">Home</a></li>
+			<li class="item"><a href="about.html">About</a></li>
+			<li class="item"><a href="projects.html">Projects</a></li>
+			<li class="item"><a href="blog.html">Blog</a></li>
+			<li class="item"><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</body>
+
+
+</html>

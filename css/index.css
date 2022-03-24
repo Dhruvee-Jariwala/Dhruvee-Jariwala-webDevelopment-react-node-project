@@ -1,0 +1,42 @@
+.img-size{
+    height: 350px;
+    width: 500px;
+}
+
+body{
+    background-color: #262533;
+}
+
+.text-white{
+    color:white;
+    font-size: 1.8rem;
+}
+
+.text-offwhite{
+    color:#8f8f8f;
+}
+
+.text-yellow{
+    color:#f9cc41;
+}
+
+.padding{
+    padding: 30px;
+}
+
+.table-spacing{
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+
+.font{
+    font-size:25px;
+}
+
+.links{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9cc41;
+    color: #262533;
+    border-radius: 10px;
+}
