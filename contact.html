@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/contact.css">
+	<script src="js/validation.js"></script>
 </head>
 <body>
 	<header >
@@ -43,15 +44,24 @@
 			<table>
 				<tr>
 					<td><label class="form_labels" for="name">Name: </label></td>
-					<td><input type="text" name="name" id="name" required></td>
+					<td>
+						<input type="text" name="name" id="name" oninput="validateName()" required><br><br>
+						<span id="name-span" style="color:burlywood;"></span>
+					</td>
 				</tr>
 				<tr>
 					<td><label class="form_labels" for="email">Email: </label></td>
-					<td><input type="email" name="email" id="email" required></td>
+					<td>
+						<input type="email" name="email" id="email" oninput="validateEmail()" required><br><br>
+						<span id="email-span" style="color:burlywood;"></span>
+					</td>
 				</tr>
 				<tr>
 					<td><label class="form_labels" for="contact">Contact: </label></td>
-					<td><input type="text" name="contact" id="contact" required></td>
+					<td>
+						<input type="text" name="contact" id="contact" oninput="validateContact()" required><br><br>
+						<span id="contact-span" style="color:burlywood;"></span>
+					</td>
 				</tr>
 				<tr>
 					<td><label class="form_labels" for="msg">Message: </label></td>
@@ -59,7 +69,7 @@
 				</tr>
 				<tr>
 					<td></td>
-					<td><button id="btnsubmit">Submit</button></td>
+					<td><button id="btnsubmit" onclick="validate()">Submit</button></td>
 				</tr>
 			</table>
 			
