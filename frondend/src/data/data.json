@@ -1,0 +1,66 @@
+{
+  "Header": {
+    "title": "We make your dreams come true!",
+    "paragraph": " "
+  },
+  "Gallery": [
+    {
+      "title": "7 Heven",
+      "largeImage": "img/portfolio/project1.jpg",
+      "smallImage": "img/portfolio/project1.jpg"
+    },
+    {
+      "title": "Happy Home",
+      "largeImage": "img/portfolio/project2.jpg",
+      "smallImage": "img/portfolio/project2.jpg"
+    },
+    {
+      "title": "Dream City",
+      "largeImage": "img/portfolio/project3.jpg",
+      "smallImage": "img/portfolio/project3.jpg"
+    },
+    {
+      "title": "Happy home vestra",
+      "largeImage": "img/portfolio/project4.jpg",
+      "smallImage": "img/portfolio/project4.jpg"
+    },
+    {
+      "title": "Asha Township",
+      "largeImage": "img/portfolio/project5.jpg",
+      "smallImage": "img/portfolio/project5.jpg"
+    },
+    {
+      "title": "Swapna kunj",
+      "largeImage": "img/portfolio/project6.jpg",
+      "smallImage": "img/portfolio/project6.jpg"
+    },
+    {
+      "title": "Pranav Vila",
+      "largeImage": "img/portfolio/project7.jpg",
+      "smallImage": "img/portfolio/project7.jpg"
+    },
+    {
+      "title": "Next to Space",
+      "largeImage": "img/portfolio/project8.jpg",
+      "smallImage": "img/portfolio/project8.jpg"
+    },
+    {
+      "title": "Utopia",
+      "largeImage": "img/portfolio/project9.jpg",
+      "smallImage": "img/portfolio/project9.jpg"
+    },
+    {
+      "title": "Raj-hansh city",
+      "largeImage": "img/portfolio/project10.jpg",
+      "smallImage": "img/portfolio/project10.jpg"
+    }
+  ],
+  "Contact": {
+    "address": "HAPPY HOME GROUP \"SHANTINIKETAN\" 1st & 2nd Floor, Near S.D. Jain School, University-Airport Road, Vesu Cross Road, Surat 395 007 Gujarat (India)",
+    "phone": "+91 90999 31023",
+    "email": "inquiry@happyhomegroup.in",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}

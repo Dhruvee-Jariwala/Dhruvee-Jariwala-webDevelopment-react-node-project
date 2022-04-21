@@ -25,18 +25,16 @@ router.get('/:id', async(req, res) => {
 //to add data in collection contact
 router.post('/', async(req, res) => {
     // res.send("post request");
+    // console.log(req.body);
     const contact = new Contact({
         name: req?.body?.name,
         email: req?.body?.email,
-        phone: req?.body?.phone,
-        msg: req?.body?.msg,
-        date: req?.body?.date,
+        message: req?.body?.message,
     });
 
     try {
-        const c = await contact.save();
-        res.json(c);
-        // console.log(req.body)
+        contact.save().then(c=>{res.json(c)});
+        
     } catch (error) {
         res.send("Error : " + error);
     }

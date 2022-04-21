@@ -1,9 +1,10 @@
+var cors = require("cors");
 const express = require('express')
 const mongoose = require('mongoose')
 const url = 'mongodb+srv://Dhruvi:60Epc5pGPCD6OF1Q@cluster0.uon77.mongodb.net/DreamCity'
 
 const app = express()
-
+app.use(cors());
 mongoose.connect(url, {useNewUrlPArser:true})
 const con = mongoose.connection
 
