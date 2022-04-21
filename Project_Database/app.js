@@ -33,7 +33,7 @@ app.use('/contacts', contactRouter);    //use contactRouter for redirecting this
 const galleryRouter = require('./routes/gallery');
 app.use('/gallery', galleryRouter);    //use galleryRouter for redirecting this request
 
-app.listen(8080, function(){
+app.listen(process.env.PORT || 8080, function(){
     console.log('Server started..')
 })
 
